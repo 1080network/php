@@ -1,0 +1,31 @@
+{
+  "name": "1080network/mica-sdk",
+  "description": "Client library for the Mica network (gRPC over mutual TLS), generated from the public protos",
+  "type": "library",
+  "license": "Apache-2.0",
+  "homepage": "https://mica.io/",
+  "support": { "source": "https://github.com/1080network/php" },
+  "keywords": ["mica", "grpc", "payments", "sdk"],
+  "require": {
+    "php": ">=8.2",
+    "google/protobuf": "^4.32 || ^5.0",
+    "grpc/grpc": "^1.74"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5 || ^11.0"
+  },
+  "suggest": {
+    "ext-grpc": "Required to make calls: the grpc/grpc package only provides the client classes",
+    "ext-protobuf": "Faster than the pure-PHP protobuf runtime"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mica\\": "src/Mica/",
+      "Micashared\\": "src/Micashared/",
+      "GPBMetadata\\": "src/GPBMetadata/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": { "Mica\\Tests\\": "tests/" }
+  }
+}
