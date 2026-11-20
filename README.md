@@ -3,7 +3,7 @@
 A PHP client library for the [Mica](https://mica.io) network. Mica's API is [gRPC](https://grpc.io) over mutual TLS;
 the messages and clients in this repository are generated from the [public protos](https://github.com/1080network/proto)
 and use [`google/protobuf`](https://packagist.org/packages/google/protobuf) and
-[`grpc/grpc`](https://packagist.org/packages/grpc/grpc). PHP 8.1 or later.
+[`grpc/grpc`](https://packagist.org/packages/grpc/grpc). PHP 8.2 or later.
 
 ## One package, loaded on demand
 

@@ -7,7 +7,7 @@
   "support": { "source": "https://github.com/1080network/php" },
   "keywords": ["mica", "grpc", "payments", "sdk"],
   "require": {
-    "php": ">=8.1",
+    "php": ">=8.2",
     "google/protobuf": "^4.32 || ^5.0",
     "grpc/grpc": "^1.74"
   },
